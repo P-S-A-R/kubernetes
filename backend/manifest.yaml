@@ -25,8 +25,8 @@ spec:
       - name: nginx
         image: satyapamireddy/backend:1.1.0
 ---
-apiVersion: v1
 kind: Service
+apiVersion: v1
 metadata:
   name: backend
   namespace: expense
