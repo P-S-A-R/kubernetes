@@ -33,7 +33,7 @@ metadata:
 spec:
   selector:
     app: backend
-    tier: app
+    tier: backend
     project: expense
   ports:
     - protocol: TCP

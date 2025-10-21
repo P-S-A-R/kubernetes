@@ -33,7 +33,7 @@ metadata:
 spec:
   selector:
     app: mysql
-    tier: app
+    tier: mysql
     project: expense
   ports:
     - protocol: TCP
