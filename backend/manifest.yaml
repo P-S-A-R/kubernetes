@@ -23,8 +23,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: satyapamireddy/backend:1.1.0
-        
+        image: satyapamireddy/backend:1.1.0       
 ---
 kind: Service
 apiVersion: v1
