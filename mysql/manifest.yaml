@@ -32,7 +32,7 @@ metadata:
   namespace: expense
 spec:
   selector:
-    name: mysql
+    app: mysql
     tier: app
     project: expense
   ports:
