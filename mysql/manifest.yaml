@@ -24,6 +24,7 @@ spec:
       containers:
       - name: nginx
         image: satyapamireddy/mysql:1.1.0
+        
 ---
 kind: Service
 apiVersion: v1
