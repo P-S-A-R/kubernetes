@@ -32,7 +32,7 @@ metadata:
   namespace: expense
 spec:
   selector:
-    name: backend
+    app: backend
     tier: app
     project: expense
   ports:
